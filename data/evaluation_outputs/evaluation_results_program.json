@@ -1,0 +1,1015 @@
+{
+  "summary": {
+    "total_examples": 100,
+    "exact_match_accuracy": 40.0,
+    "numeric_match_accuracy": 53.0,
+    "exact_match_count": 40,
+    "numeric_match_count": 13,
+    "rounding_difference_count": 13,
+    "avg_generation_time": 9.927253210544587,
+    "step_accuracies": {
+      "2": {
+        "accuracy": 15.0,
+        "count": 340
+      },
+      "1": {
+        "accuracy": 11.724137931034482,
+        "count": 145
+      },
+      "3": {
+        "accuracy": 4.444444444444445,
+        "count": 45
+      },
+      "4": {
+        "accuracy": 0.0,
+        "count": 4
+      },
+      "5": {
+        "accuracy": 0.0,
+        "count": 8
+      }
+    }
+  },
+  "rounding_differences": [
+    {
+      "question": "what percentage of amounts expensed in 2009 came from discretionary company contributions?",
+      "expected": "10.83%",
+      "model": "11%",
+      "difference": 0.16999999999999993
+    },
+    {
+      "question": "what percent higher is fair value than carrying value?",
+      "expected": "7.51%",
+      "model": "7.5%",
+      "difference": 0.009999999999999787
+    },
+    {
+      "question": "what is the percent change in gas customers between 2007 and 2008?",
+      "expected": "8%",
+      "model": "8.1%",
+      "difference": 0.09999999999999964
+    },
+    {
+      "question": "what is the percentage increase in total accumulated other comprehensive losses from 2013 to 2014?",
+      "expected": "62.9%",
+      "model": "63%",
+      "difference": 0.10000000000000142
+    },
+    {
+      "question": "what percent higher is fair value than carrying value?",
+      "expected": "7.51%",
+      "model": "7.5%",
+      "difference": 0.009999999999999787
+    },
+    {
+      "question": "by how much did the average price per share increase from 2010 to 2011?",
+      "expected": "25.9%",
+      "model": "25.7%",
+      "difference": 0.1999999999999993
+    },
+    {
+      "question": "at december 31 , 2013 what was the ratio of square feet of our office in alpharetta , georgia to the jersey city new jersey",
+      "expected": "2.37",
+      "model": "2.38",
+      "difference": 0.009999999999999787
+    },
+    {
+      "question": "what is the percent change in minimum annual rental payment between 2010 and 2011?",
+      "expected": "1.3%",
+      "model": "1.26%",
+      "difference": 0.040000000000000036
+    },
+    {
+      "question": "what is the percentage change in average of investments from 2014 to 2015?",
+      "expected": "3.6%",
+      "model": "3.5%",
+      "difference": 0.10000000000000009
+    },
+    {
+      "question": "what is the percentage growth of the aggregate fair values of our outstanding fuel hedge for 2014 to 2015",
+      "expected": "9.9%",
+      "model": "10%",
+      "difference": 0.09999999999999964
+    },
+    {
+      "question": "what is the percentage reduction in the loews common stock from 2013 to 2014",
+      "expected": "-12.4%",
+      "model": "-12.5%",
+      "difference": 0.09999999999999964
+    },
+    {
+      "question": "considering the year 2012 , what is the sales to operating income ratio?",
+      "expected": "9.41",
+      "model": "9.4",
+      "difference": 0.009999999999999787
+    },
+    {
+      "question": "what are the nuclear fuel expenses as a percentage of 2016 net revenue?",
+      "expected": "4.41%",
+      "model": "4.5%",
+      "difference": 0.08999999999999986
+    }
+  ],
+  "results": [
+    {
+      "question": "by how much did the weighted average exercise price per share increase from 2005 to 2007?",
+      "expected_final": "142.4%",
+      "model_final": "141%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 39.73996090888977
+    },
+    {
+      "question": "what is the percentage change in the unamortized debt issuance costs associated with the senior notes from 2016 to 2017?",
+      "expected_final": "-21.1%",
+      "model_final": "-21.1%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 8.863850831985474
+    },
+    {
+      "question": "what is the percentage change in the unamortized debt issuance costs associated with its credit facilities from 2016 to 2017?",
+      "expected_final": "37.5%",
+      "model_final": "37.5%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 8.581233739852905
+    },
+    {
+      "question": "what percentage of amounts expensed in 2009 came from discretionary company contributions?",
+      "expected_final": "10.83%",
+      "model_final": "11%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 5.9773993492126465
+    },
+    {
+      "question": "what was the percentage change in equipment rents payable from 2007 to 2008?",
+      "expected_final": "-10%",
+      "model_final": "-9.7%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 9.018417119979858
+    },
+    {
+      "question": "what was the ratio of the gallons hedged in 2017 to 2018",
+      "expected_final": "4",
+      "model_final": "4",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 6.6280200481414795
+    },
+    {
+      "question": "what was the ratio of the aggregate fair values of our outstanding fuel hedges for 2015 and 2016",
+      "expected_final": "14",
+      "model_final": "1.07",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 9.902235984802246
+    },
+    {
+      "question": "for 2016 , what was the total african and us net undeveloped acres expiring , in thousands ? \\\\n",
+      "expected_final": "257",
+      "model_final": "257",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 5.563722133636475
+    },
+    {
+      "question": "in 2018 , what percentage of undeveloped acres were located in the u.s?",
+      "expected_final": "12.6%",
+      "model_final": "12.6%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 6.610450029373169
+    },
+    {
+      "question": "what was the percentage change in cash provided by operating activities from 2012 to 2013?",
+      "expected_final": "11%",
+      "model_final": "10.6%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 10.188295841217041
+    },
+    {
+      "question": "what percentage of the total oil and gas mmboe comes from canada?",
+      "expected_final": "24.69%",
+      "model_final": "18.7%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 9.57016396522522
+    },
+    {
+      "question": "what was the percent of the change in the risk and insurance brokerage services segment revenue from 2008 2009\\\\n",
+      "expected_final": "1.7%",
+      "model_final": "1.7%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 9.934775829315186
+    },
+    {
+      "question": "what is the total return is $ 100000 are invested in s&p500 on january 1st , 2015 and sold at the end of 2016?",
+      "expected_final": "1877",
+      "model_final": "10280",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 11.722656488418579
+    },
+    {
+      "question": "what percent higher is fair value than carrying value?",
+      "expected_final": "7.51%",
+      "model_final": "7.5%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 10.097256898880005
+    },
+    {
+      "question": "what is the percent change in gas customers between 2007 and 2008?",
+      "expected_final": "8%",
+      "model_final": "8.1%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 10.66489553451538
+    },
+    {
+      "question": "what was the change in millions of operating income from 2016 to 2017?",
+      "expected_final": "688",
+      "model_final": "688",
+      "exact_match": true,
+      "numeric_match": true,
+      "match_status": "exact",
+      "generation_time": 6.421380281448364
+    },
+    {
+      "question": "what are the net earnings attributable to pmi in the previous year , ( in billions ) ?",
+      "expected_final": "7.0",
+      "model_final": "1000",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 10.001983404159546
+    },
+    {
+      "question": "what is the growth rate in total shipment volume from 2010 to 2011?",
+      "expected_final": "1.4%",
+      "model_final": "1.4%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 10.74376106262207
+    },
+    {
+      "question": "what is the percentage increase in total accumulated other comprehensive losses from 2014 to 2015?",
+      "expected_final": "37.7%",
+      "model_final": "37.7%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 10.416683197021484
+    },
+    {
+      "question": "what is the percentage increase in total accumulated other comprehensive losses from 2013 to 2014?",
+      "expected_final": "62.9%",
+      "model_final": "63%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 9.74041223526001
+    },
+    {
+      "question": "assuming 2010 accrued casualty costs were completely repaired in the following year , ,what would the repairs and maintenance expense increase to for 2011 in millions?",
+      "expected_final": "2525",
+      "model_final": "2.3",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 12.345738410949707
+    },
+    {
+      "question": "what is the average variance of the value at risk of each 2008 section? ( $ )",
+      "expected_final": "3.85",
+      "model_final": "7.5",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 11.65441346168518
+    },
+    {
+      "question": "what percent higher is the average var for foreign exchange products than that of interest rate products?",
+      "expected_final": "44%",
+      "model_final": "63.6%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 9.940767765045166
+    },
+    {
+      "question": "what portion of total long-term borrowings is due in the next 36 months?",
+      "expected_final": "29.3%",
+      "model_final": "49.5%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 13.713507890701294
+    },
+    {
+      "question": "what amount of long-term debt due in the next 36 months as of december 31 , 2003 , in millions?",
+      "expected_final": "1041.5",
+      "model_final": "2607695",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 21.309579849243164
+    },
+    {
+      "question": "what was the percentage change of the net favorable prior period development from 2010 to 2008",
+      "expected_final": "38.2%",
+      "model_final": "-37%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 9.045481204986572
+    },
+    {
+      "question": "what is the growth rate in net revenue in 2003 for entergy louisiana , inc.?",
+      "expected_final": "5.5%",
+      "model_final": "5.5%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 10.583795070648193
+    },
+    {
+      "question": "payments to participants in the unfunded german plans are expected to be total approximately how much , in millions , for the years 2008 through 2012?",
+      "expected_final": "104",
+      "model_final": "104",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 5.408275604248047
+    },
+    {
+      "question": "what percent higher is fair value than carrying value?",
+      "expected_final": "7.51%",
+      "model_final": "7.5%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 9.98400616645813
+    },
+    {
+      "question": "what is the fair value of all notes due by 2019 ? in millions $ .",
+      "expected_final": "2672",
+      "model_final": "1134",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 10.8493070602417
+    },
+    {
+      "question": "what are the lease obligations to entergy louisiana as a percentage of long-term debt maturities in 2014?",
+      "expected_final": "38.7%",
+      "model_final": "0.39%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 11.056437492370605
+    },
+    {
+      "question": "at december 31 , 2008 what was the ratio of the tier 2 capital compared to 2007",
+      "expected_final": "0.94",
+      "model_final": "1",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 5.352194547653198
+    },
+    {
+      "question": "what was the change in billions in total capital ( tier 1 and tier 2 ) from 2007 to 2008?",
+      "expected_final": "-13.2",
+      "model_final": "-13.2",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 6.7933430671691895
+    },
+    {
+      "question": "what is percentage change in rd&e spendings from 2013 to 2014?",
+      "expected_final": "8.3%",
+      "model_final": "8.3%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 9.364774227142334
+    },
+    {
+      "question": "what is the applied 2019s net sales in 2018 , ( in billions ) ?",
+      "expected_final": "7.22",
+      "model_final": "72.2",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 9.686603307723999
+    },
+    {
+      "question": "what is the growth rate in net revenue in 2016?",
+      "expected_final": "-7.4%",
+      "model_final": "-7.4%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 9.909743070602417
+    },
+    {
+      "question": "what was the average revenue from discontinued operations in 2013 and 2011 , in millions?",
+      "expected_final": "738.5",
+      "model_final": "738.5",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 9.720278024673462
+    },
+    {
+      "question": "what is the average liability for all three programs , as of december 31 , 2008 , in millions?",
+      "expected_final": "4.27",
+      "model_final": "4.27",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 12.669814825057983
+    },
+    {
+      "question": "what was the percent of the decrease in the other intangible assets net from 2003 to 2004\\\\n",
+      "expected_final": "-3.4%",
+      "model_final": "3.4%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 11.61291766166687
+    },
+    {
+      "question": "what was the percentage cumulative total return for the five year period ended 31-dec-2017 of citi common stock?",
+      "expected_final": "93.5%",
+      "model_final": "93.5%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 10.59269404411316
+    },
+    {
+      "question": "what is the percentage change in total gross amount of unrecognized tax benefits from 2017 to 2018?",
+      "expected_final": "13.4%",
+      "model_final": "13.4%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 11.597853660583496
+    },
+    {
+      "question": "what is the total percentage decrease in future contingent acquisition obligations payable in cash from 2009-2013?",
+      "expected_final": "1.56%",
+      "model_final": "4%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 8.844276666641235
+    },
+    {
+      "question": "as of december 312012 what was the outstanding amount of share repurchase authorized in billions?",
+      "expected_final": "0.88",
+      "model_final": "8",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 8.8332998752594
+    },
+    {
+      "question": "by how much did the average price per share increase from 2010 to 2011?",
+      "expected_final": "25.9%",
+      "model_final": "25.7%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 11.02847146987915
+    },
+    {
+      "question": "what was the percentage cumulative 5-year total stockholder return for cadence design systems inc . for the five years ended 12/29/2012?",
+      "expected_final": "-21.08%",
+      "model_final": "-21.08%",
+      "exact_match": true,
+      "numeric_match": true,
+      "match_status": "exact",
+      "generation_time": 11.090577840805054
+    },
+    {
+      "question": "what is the percentage change in total debt from 2014 to 2015?",
+      "expected_final": "3.4%",
+      "model_final": "-3.4%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 9.63218355178833
+    },
+    {
+      "question": "at december 31 , 2013 what was the percent of square feet of our office in alpharetta , georgia not leased",
+      "expected_final": "65%",
+      "model_final": "65%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 6.79073166847229
+    },
+    {
+      "question": "at december 31 , 2013 what was the ratio of square feet of our office in alpharetta , georgia to the jersey city new jersey",
+      "expected_final": "2.37",
+      "model_final": "2.38",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 7.115716457366943
+    },
+    {
+      "question": "what was the percent of the change in the net revenues from dec . 282012 dec . 29 2013",
+      "expected_final": "-1.2%",
+      "model_final": "-1.2%",
+      "exact_match": true,
+      "numeric_match": true,
+      "match_status": "exact",
+      "generation_time": 10.418672800064087
+    },
+    {
+      "question": "what was the percent of the impairment charges to the net revenue in 2013",
+      "expected_final": "0.5%",
+      "model_final": "1.7%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 6.431481838226318
+    },
+    {
+      "question": "what was the percentage change in operating income from 2016 to 2017?",
+      "expected_final": "6%",
+      "model_final": "6.4%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 10.3791663646698
+    },
+    {
+      "question": "what is the net change in cash in 2010?",
+      "expected_final": "-135",
+      "model_final": "-1435",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 9.926509141921997
+    },
+    {
+      "question": "what is the percent change in minimum annual rental payment between 2010 and 2011?",
+      "expected_final": "1.3%",
+      "model_final": "1.26%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 10.0516037940979
+    },
+    {
+      "question": "what is the average amortization amount , in millions , from 2015-2019?",
+      "expected_final": "44.8",
+      "model_final": "53.8",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 21.203899145126343
+    },
+    {
+      "question": "what was the total return percentage for e*trade financial corporation for the five years ended 12/14?",
+      "expected_final": "37.81%",
+      "model_final": "37.81%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 11.325174570083618
+    },
+    {
+      "question": "what is the percentage change in average of investments from 2014 to 2015?",
+      "expected_final": "3.6%",
+      "model_final": "3.5%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 11.819916486740112
+    },
+    {
+      "question": "what is the growth rate in the price of shares from the highest value during the quarter ended december 31 , 2010 and the closing price on february 11 , 2011?",
+      "expected_final": "6.8%",
+      "model_final": "-6.3%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 10.647162199020386
+    },
+    {
+      "question": "what is the total amount of cash outflow used for shares repurchased during november 2007 , in millions?",
+      "expected_final": "20.7",
+      "model_final": "3.7",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 11.379191637039185
+    },
+    {
+      "question": "for the fourth quarter ended december 312018 what was the total number of shares purchased in november",
+      "expected_final": "47.6%",
+      "model_final": "3.4",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 7.31186318397522
+    },
+    {
+      "question": "as of december 2018 what was the percent of the 2018 program still outstanding",
+      "expected_final": "88%",
+      "model_final": "88%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 5.784725189208984
+    },
+    {
+      "question": "what is the percentage change in the balance of the prudential insurance company of america from 2016 to 2017?",
+      "expected_final": "-1.3%",
+      "model_final": "-1.3%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 11.128650188446045
+    },
+    {
+      "question": "what was the ratio of the 2016 hedged gallons to 2017",
+      "expected_final": "2.25",
+      "model_final": "2.25",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 7.875094175338745
+    },
+    {
+      "question": "what is the percentage growth of the aggregate fair values of our outstanding fuel hedge for 2014 to 2015",
+      "expected_final": "9.9%",
+      "model_final": "10%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 9.522695541381836
+    },
+    {
+      "question": "what was the percentage change in raw materials and supplies between 2017 and 2018?",
+      "expected_final": "4%",
+      "model_final": "3.6%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 10.618430852890015
+    },
+    {
+      "question": "what was the percentage change in investment banking fees from 2006 to 2007?",
+      "expected_final": "20%",
+      "model_final": "20%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 9.717381238937378
+    },
+    {
+      "question": "what is the percentage change in net comodities from 2016 to 2017?",
+      "expected_final": "-35.6%",
+      "model_final": "-35.6%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 9.087102890014648
+    },
+    {
+      "question": "what is the percentage reduction in the loews common stock from 2013 to 2014",
+      "expected_final": "-12.4%",
+      "model_final": "-12.5%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 11.64423155784607
+    },
+    {
+      "question": "what is the difference in payments between entergy arkansas and entergy louisiana , in millions?",
+      "expected_final": "4",
+      "model_final": "-4",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 4.424766778945923
+    },
+    {
+      "question": "what are the payments for entergy arkansas as a percentage of payments for entergy louisiana?",
+      "expected_final": "33.3%",
+      "model_final": "33.3%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 5.749839782714844
+    },
+    {
+      "question": "considering the year 2013 , what is the sales to operating income ratio?",
+      "expected_final": "6.88",
+      "model_final": "6.8",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 6.317810535430908
+    },
+    {
+      "question": "considering the year 2012 , what is the sales to operating income ratio?",
+      "expected_final": "9.41",
+      "model_final": "9.4",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 6.290748834609985
+    },
+    {
+      "question": "what is the percent change in net revenue from 2015 to 2016?",
+      "expected_final": "8.04%",
+      "model_final": "-7.4%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 9.934429168701172
+    },
+    {
+      "question": "what are the nuclear fuel expenses as a percentage of 2016 net revenue?",
+      "expected_final": "4.41%",
+      "model_final": "4.5%",
+      "exact_match": false,
+      "numeric_match": true,
+      "match_status": "numeric",
+      "generation_time": 6.105743169784546
+    },
+    {
+      "question": "considering the year 2012 , how bigger is the capital expenditures on a non-gaap basis than the one on a gaap basis?",
+      "expected_final": "8.53%",
+      "model_final": "218.5",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 7.513895273208618
+    },
+    {
+      "question": "what was the percentage return for pmi common stock for the five years ended 2018?",
+      "expected_final": "-3.5%",
+      "model_final": "-3.5%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 10.063612222671509
+    },
+    {
+      "question": "what amount of long-term debt due in the next 24 months as of december 31 , 2003 , in millions?",
+      "expected_final": "965.6",
+      "model_final": "965.6",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 11.680246353149414
+    },
+    {
+      "question": "what amount of long-term debt due in the next 36 months as of december 31 , 2003 , in millions?",
+      "expected_final": "1041.5",
+      "model_final": "2607695",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 21.326986074447632
+    },
+    {
+      "question": "what is the fair value of hologic common stock used to acquire suros?",
+      "expected_final": "46.3",
+      "model_final": "24495000",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 8.214263200759888
+    },
+    {
+      "question": "what portion of the total acquisition price of suros is dedicated to goodwill?",
+      "expected_final": "75.6%",
+      "model_final": "76%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 6.852288246154785
+    },
+    {
+      "question": "what was the percentage growth in the operating profit as reported from 2017 to 2018",
+      "expected_final": "1.4%",
+      "model_final": "1.4%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 9.742286205291748
+    },
+    {
+      "question": "what was the difference in operating profit for the americas as a percentage of net sales between 2001 and 2003?",
+      "expected_final": "3.8%",
+      "model_final": "2.9",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 6.100783586502075
+    },
+    {
+      "question": "what was the difference in operating profit for europe as a percentage of net sales between 2001 and 2003?",
+      "expected_final": "6.8%",
+      "model_final": "4.9",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 6.117223262786865
+    },
+    {
+      "question": "compared to the s&p 500 ,what was the difference in percentage growth from the s&p 500 retail index .",
+      "expected_final": "73.4%",
+      "model_final": "74.46%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 24.030881881713867
+    },
+    {
+      "question": "for the mtn group acquisition , what was the cost per tower ? .",
+      "expected_final": "1798334",
+      "model_final": "17.32",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 11.096723318099976
+    },
+    {
+      "question": "how many total votes can the class b-3 provide in 2017?",
+      "expected_final": "1300",
+      "model_final": "1300",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 9.351220607757568
+    },
+    {
+      "question": "what are the total contingent payments relating to impella?",
+      "expected_final": "5583331",
+      "model_final": "16749999",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 13.792471885681152
+    },
+    {
+      "question": "what was the average payment per year for the state tax settlement , in millions?",
+      "expected_final": "56",
+      "model_final": "56",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 5.212990999221802
+    },
+    {
+      "question": "what portion of the long-term debt is reported under the current liabilities section of balance sheet as of september 27 , 2008?",
+      "expected_final": "1.7%",
+      "model_final": "17.5%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 7.465524435043335
+    },
+    {
+      "question": "what portion of the total contractual obligations are due within the next 12 months?",
+      "expected_final": "5.8%",
+      "model_final": "5.8%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 7.302540063858032
+    },
+    {
+      "question": "for the mtn group acquisition , what was the cost per tower ? .",
+      "expected_final": "1798334",
+      "model_final": "17.32",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 11.086349248886108
+    },
+    {
+      "question": "for the mtn deal , what was the total post closing adjustments , in millions?",
+      "expected_final": "1.7",
+      "model_final": "1.7",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 6.409079074859619
+    },
+    {
+      "question": "what percentage of total other assets in 2012 was comprised of goodwill and identifiable intangible assets?",
+      "expected_final": "13%",
+      "model_final": "13%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 6.258702039718628
+    },
+    {
+      "question": "what percentage of total other assets in 2011 was comprised of goodwill and identifiable intangible assets?",
+      "expected_final": "24%",
+      "model_final": "23.7%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 7.045897006988525
+    },
+    {
+      "question": "what is the average price of the increased electricity usage per gwh?",
+      "expected_final": "18068.8",
+      "model_final": "130.75",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 6.72234845161438
+    },
+    {
+      "question": "what was the percentage change in net revenue in 2011",
+      "expected_final": "3.5%",
+      "model_final": "3.5%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 10.703384399414062
+    },
+    {
+      "question": "at december 31 , what was the percentage change in investment income from 2011 to 2012",
+      "expected_final": "-3.2%",
+      "model_final": "-3.2%",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 10.33373737335205
+    },
+    {
+      "question": "at the end of 2014 , the notional value of derivatives designated as hedging instruments under gaap was what percent of the fair value?",
+      "expected_final": "3044%",
+      "model_final": "30.5%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 6.814886569976807
+    },
+    {
+      "question": "was the notional amount of derivatives designated as hedging instruments under gaap greater than the notional amount of\\\\nderivatives not designated as hedging instruments under gaap?",
+      "expected_final": "no",
+      "model_final": "no",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 6.509319067001343
+    },
+    {
+      "question": "what was the percentage growth in sales of cabinets from 2016 to 2017",
+      "expected_final": "2.9%",
+      "model_final": "3.3%",
+      "exact_match": false,
+      "numeric_match": false,
+      "match_status": "incorrect",
+      "generation_time": 11.135019779205322
+    },
+    {
+      "question": "what was the average net revenue between 2016 and 2017 in millions",
+      "expected_final": "1521.55",
+      "model_final": "1521.55",
+      "exact_match": true,
+      "numeric_match": false,
+      "match_status": "exact",
+      "generation_time": 11.832030534744263
+    }
+  ]
+}

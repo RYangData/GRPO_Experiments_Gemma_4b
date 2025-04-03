@@ -1,0 +1,612 @@
+{
+  "summary": {
+    "total_examples": 100,
+    "exact_match_accuracy": 16.0,
+    "numeric_match_accuracy": 23.0,
+    "exact_match_count": 16,
+    "numeric_match_count": 7,
+    "avg_generation_time": 1.2284817171096802
+  },
+  "results": [
+    {
+      "expected_answer": "142.4%",
+      "model_answer": "134.8%",
+      "match_status": "incorrect",
+      "generation_time": 28.36715292930603
+    },
+    {
+      "expected_answer": "-21.1%",
+      "model_answer": "-16%",
+      "match_status": "incorrect",
+      "generation_time": 0.942112922668457
+    },
+    {
+      "expected_answer": "37.5%",
+      "model_answer": "-21.4%",
+      "match_status": "incorrect",
+      "generation_time": 1.3130383491516113
+    },
+    {
+      "expected_answer": "10.83%",
+      "model_answer": "11.1%",
+      "match_status": "incorrect",
+      "generation_time": 1.111016035079956
+    },
+    {
+      "expected_answer": "-10%",
+      "model_answer": "-8.8%",
+      "match_status": "incorrect",
+      "generation_time": 1.0752894878387451
+    },
+    {
+      "expected_answer": "4",
+      "model_answer": "4",
+      "match_status": "exact",
+      "generation_time": 0.3979308605194092
+    },
+    {
+      "expected_answer": "14",
+      "model_answer": "0.1",
+      "match_status": "incorrect",
+      "generation_time": 0.7236447334289551
+    },
+    {
+      "expected_answer": "257",
+      "model_answer": "2562",
+      "match_status": "incorrect",
+      "generation_time": 0.877190113067627
+    },
+    {
+      "expected_answer": "12.6%",
+      "model_answer": "13.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.060791254043579
+    },
+    {
+      "expected_answer": "11%",
+      "model_answer": "11.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.0616133213043213
+    },
+    {
+      "expected_answer": "24.69%",
+      "model_answer": "25%",
+      "match_status": "incorrect",
+      "generation_time": 0.7053751945495605
+    },
+    {
+      "expected_answer": "1.7%",
+      "model_answer": "1.5%",
+      "match_status": "numeric",
+      "generation_time": 0.8963868618011475
+    },
+    {
+      "expected_answer": "1877",
+      "model_answer": "29.05",
+      "match_status": "incorrect",
+      "generation_time": 1.0465190410614014
+    },
+    {
+      "expected_answer": "7.51%",
+      "model_answer": "11.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.1375114917755127
+    },
+    {
+      "expected_answer": "8%",
+      "model_answer": "11.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.0811407566070557
+    },
+    {
+      "expected_answer": "688",
+      "model_answer": "688",
+      "match_status": "exact",
+      "generation_time": 0.7305326461791992
+    },
+    {
+      "expected_answer": "7.0",
+      "model_answer": "7.0",
+      "match_status": "exact",
+      "generation_time": 0.7215306758880615
+    },
+    {
+      "expected_answer": "1.4%",
+      "model_answer": "1.1%",
+      "match_status": "incorrect",
+      "generation_time": 0.8897089958190918
+    },
+    {
+      "expected_answer": "37.7%",
+      "model_answer": "36.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.0697472095489502
+    },
+    {
+      "expected_answer": "62.9%",
+      "model_answer": "65.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.0788679122924805
+    },
+    {
+      "expected_answer": "2525",
+      "model_answer": "2.5",
+      "match_status": "incorrect",
+      "generation_time": 0.7257437705993652
+    },
+    {
+      "expected_answer": "3.85",
+      "model_answer": "2.1",
+      "match_status": "incorrect",
+      "generation_time": 0.7296390533447266
+    },
+    {
+      "expected_answer": "44%",
+      "model_answer": "118.2%",
+      "match_status": "incorrect",
+      "generation_time": 1.240243911743164
+    },
+    {
+      "expected_answer": "29.3%",
+      "model_answer": "15.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.1242754459381104
+    },
+    {
+      "expected_answer": "1041.5",
+      "model_answer": "170.6",
+      "match_status": "incorrect",
+      "generation_time": 1.0771815776824951
+    },
+    {
+      "expected_answer": "38.2%",
+      "model_answer": "-38.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.226410150527954
+    },
+    {
+      "expected_answer": "5.5%",
+      "model_answer": "5.5%",
+      "match_status": "exact",
+      "generation_time": 0.895012378692627
+    },
+    {
+      "expected_answer": "104",
+      "model_answer": "104",
+      "match_status": "exact",
+      "generation_time": 0.7319598197937012
+    },
+    {
+      "expected_answer": "7.51%",
+      "model_answer": "10.1%",
+      "match_status": "incorrect",
+      "generation_time": 1.0883159637451172
+    },
+    {
+      "expected_answer": "2672",
+      "model_answer": "1384",
+      "match_status": "incorrect",
+      "generation_time": 0.9406616687774658
+    },
+    {
+      "expected_answer": "38.7%",
+      "model_answer": "3.9%",
+      "match_status": "incorrect",
+      "generation_time": 0.9075324535369873
+    },
+    {
+      "expected_answer": "0.94",
+      "model_answer": "1.15",
+      "match_status": "incorrect",
+      "generation_time": 0.9037337303161621
+    },
+    {
+      "expected_answer": "-13.2",
+      "model_answer": "-13.2",
+      "match_status": "exact",
+      "generation_time": 1.071009635925293
+    },
+    {
+      "expected_answer": "8.3%",
+      "model_answer": "10.7%",
+      "match_status": "incorrect",
+      "generation_time": 1.0679078102111816
+    },
+    {
+      "expected_answer": "7.22",
+      "model_answer": "18.5",
+      "match_status": "incorrect",
+      "generation_time": 0.8781423568725586
+    },
+    {
+      "expected_answer": "-7.4%",
+      "model_answer": "-8.1%",
+      "match_status": "incorrect",
+      "generation_time": 1.0674068927764893
+    },
+    {
+      "expected_answer": "738.5",
+      "model_answer": "981",
+      "match_status": "incorrect",
+      "generation_time": 0.7226452827453613
+    },
+    {
+      "expected_answer": "4.27",
+      "model_answer": "10.3",
+      "match_status": "incorrect",
+      "generation_time": 0.878105640411377
+    },
+    {
+      "expected_answer": "-3.4%",
+      "model_answer": "-2.1%",
+      "match_status": "incorrect",
+      "generation_time": 1.0596721172332764
+    },
+    {
+      "expected_answer": "93.5%",
+      "model_answer": "93.5%",
+      "match_status": "exact",
+      "generation_time": 1.052717924118042
+    },
+    {
+      "expected_answer": "13.4%",
+      "model_answer": "6.1%",
+      "match_status": "incorrect",
+      "generation_time": 0.884770393371582
+    },
+    {
+      "expected_answer": "1.56%",
+      "model_answer": "-15.1%",
+      "match_status": "incorrect",
+      "generation_time": 1.2201738357543945
+    },
+    {
+      "expected_answer": "0.88",
+      "model_answer": "16",
+      "match_status": "incorrect",
+      "generation_time": 0.5519866943359375
+    },
+    {
+      "expected_answer": "25.9%",
+      "model_answer": "18.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.043691635131836
+    },
+    {
+      "expected_answer": "-21.08%",
+      "model_answer": "78.92%",
+      "match_status": "incorrect",
+      "generation_time": 1.2223634719848633
+    },
+    {
+      "expected_answer": "3.4%",
+      "model_answer": "-3.1%",
+      "match_status": "incorrect",
+      "generation_time": 1.1292767524719238
+    },
+    {
+      "expected_answer": "65%",
+      "model_answer": "1.6%",
+      "match_status": "incorrect",
+      "generation_time": 0.8863918781280518
+    },
+    {
+      "expected_answer": "2.37",
+      "model_answer": "2.3",
+      "match_status": "incorrect",
+      "generation_time": 0.7097270488739014
+    },
+    {
+      "expected_answer": "-1.2%",
+      "model_answer": "-1.1%",
+      "match_status": "numeric",
+      "generation_time": 1.042787790298462
+    },
+    {
+      "expected_answer": "0.5%",
+      "model_answer": "1.7%",
+      "match_status": "incorrect",
+      "generation_time": 0.8747203350067139
+    },
+    {
+      "expected_answer": "6%",
+      "model_answer": "6.4%",
+      "match_status": "incorrect",
+      "generation_time": 0.8757307529449463
+    },
+    {
+      "expected_answer": "-135",
+      "model_answer": "-1110",
+      "match_status": "incorrect",
+      "generation_time": 1.0387794971466064
+    },
+    {
+      "expected_answer": "1.3%",
+      "model_answer": "1.5%",
+      "match_status": "numeric",
+      "generation_time": 0.885547399520874
+    },
+    {
+      "expected_answer": "44.8",
+      "model_answer": "44.8",
+      "match_status": "exact",
+      "generation_time": 0.8916456699371338
+    },
+    {
+      "expected_answer": "37.81%",
+      "model_answer": "37.81%",
+      "match_status": "exact",
+      "generation_time": 1.2374529838562012
+    },
+    {
+      "expected_answer": "3.6%",
+      "model_answer": "2.5%",
+      "match_status": "incorrect",
+      "generation_time": 0.9190130233764648
+    },
+    {
+      "expected_answer": "6.8%",
+      "model_answer": "-11.1%",
+      "match_status": "incorrect",
+      "generation_time": 1.2494237422943115
+    },
+    {
+      "expected_answer": "20.7",
+      "model_answer": "21.1",
+      "match_status": "incorrect",
+      "generation_time": 0.8801462650299072
+    },
+    {
+      "expected_answer": "47.6%",
+      "model_answer": "3655945",
+      "match_status": "incorrect",
+      "generation_time": 1.3756904602050781
+    },
+    {
+      "expected_answer": "88%",
+      "model_answer": "88%",
+      "match_status": "exact",
+      "generation_time": 0.7244162559509277
+    },
+    {
+      "expected_answer": "-1.3%",
+      "model_answer": "-1.1%",
+      "match_status": "numeric",
+      "generation_time": 1.0494129657745361
+    },
+    {
+      "expected_answer": "2.25",
+      "model_answer": "2.25",
+      "match_status": "exact",
+      "generation_time": 0.8845138549804688
+    },
+    {
+      "expected_answer": "9.9%",
+      "model_answer": "10.1%",
+      "match_status": "numeric",
+      "generation_time": 1.0607600212097168
+    },
+    {
+      "expected_answer": "4%",
+      "model_answer": "3.5%",
+      "match_status": "incorrect",
+      "generation_time": 0.8888330459594727
+    },
+    {
+      "expected_answer": "20%",
+      "model_answer": "28%",
+      "match_status": "incorrect",
+      "generation_time": 0.709331750869751
+    },
+    {
+      "expected_answer": "-35.6%",
+      "model_answer": "-31.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.257483720779419
+    },
+    {
+      "expected_answer": "-12.4%",
+      "model_answer": "-10.0%",
+      "match_status": "incorrect",
+      "generation_time": 1.2607040405273438
+    },
+    {
+      "expected_answer": "4",
+      "model_answer": "-1",
+      "match_status": "incorrect",
+      "generation_time": 0.5500798225402832
+    },
+    {
+      "expected_answer": "33.3%",
+      "model_answer": "16.7%",
+      "match_status": "incorrect",
+      "generation_time": 1.0565595626831055
+    },
+    {
+      "expected_answer": "6.88",
+      "model_answer": "6.8",
+      "match_status": "incorrect",
+      "generation_time": 0.7374212741851807
+    },
+    {
+      "expected_answer": "9.41",
+      "model_answer": "10.1",
+      "match_status": "incorrect",
+      "generation_time": 0.9046990871429443
+    },
+    {
+      "expected_answer": "8.04%",
+      "model_answer": "-8.3%",
+      "match_status": "incorrect",
+      "generation_time": 1.0765821933746338
+    },
+    {
+      "expected_answer": "4.41%",
+      "model_answer": "4.3%",
+      "match_status": "numeric",
+      "generation_time": 0.8895308971405029
+    },
+    {
+      "expected_answer": "8.53%",
+      "model_answer": "1.3",
+      "match_status": "incorrect",
+      "generation_time": 0.7233352661132812
+    },
+    {
+      "expected_answer": "-3.5%",
+      "model_answer": "-3.5%",
+      "match_status": "exact",
+      "generation_time": 1.0811469554901123
+    },
+    {
+      "expected_answer": "965.6",
+      "model_answer": "106.5",
+      "match_status": "incorrect",
+      "generation_time": 1.0760321617126465
+    },
+    {
+      "expected_answer": "1041.5",
+      "model_answer": "170.6",
+      "match_status": "incorrect",
+      "generation_time": 1.081153154373169
+    },
+    {
+      "expected_answer": "46.3",
+      "model_answer": "10000",
+      "match_status": "incorrect",
+      "generation_time": 1.0986456871032715
+    },
+    {
+      "expected_answer": "75.6%",
+      "model_answer": "78%",
+      "match_status": "incorrect",
+      "generation_time": 0.7325294017791748
+    },
+    {
+      "expected_answer": "1.4%",
+      "model_answer": "1.1%",
+      "match_status": "incorrect",
+      "generation_time": 0.9117014408111572
+    },
+    {
+      "expected_answer": "3.8%",
+      "model_answer": "11.7%",
+      "match_status": "incorrect",
+      "generation_time": 1.0671427249908447
+    },
+    {
+      "expected_answer": "6.8%",
+      "model_answer": "4.9",
+      "match_status": "incorrect",
+      "generation_time": 0.7129864692687988
+    },
+    {
+      "expected_answer": "73.4%",
+      "model_answer": "-10.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.2297241687774658
+    },
+    {
+      "expected_answer": "1798334",
+      "model_answer": "171.5",
+      "match_status": "incorrect",
+      "generation_time": 1.0649516582489014
+    },
+    {
+      "expected_answer": "1300",
+      "model_answer": "1.3",
+      "match_status": "incorrect",
+      "generation_time": 0.7169764041900635
+    },
+    {
+      "expected_answer": "5583331",
+      "model_answer": "1.71",
+      "match_status": "incorrect",
+      "generation_time": 0.8778290748596191
+    },
+    {
+      "expected_answer": "56",
+      "model_answer": "1.1",
+      "match_status": "incorrect",
+      "generation_time": 0.7214682102203369
+    },
+    {
+      "expected_answer": "1.7%",
+      "model_answer": "10.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.0763568878173828
+    },
+    {
+      "expected_answer": "5.8%",
+      "model_answer": "56.3%",
+      "match_status": "incorrect",
+      "generation_time": 1.1099119186401367
+    },
+    {
+      "expected_answer": "1798334",
+      "model_answer": "171.5",
+      "match_status": "incorrect",
+      "generation_time": 1.069946050643921
+    },
+    {
+      "expected_answer": "1.7",
+      "model_answer": "1.7",
+      "match_status": "exact",
+      "generation_time": 0.7336053848266602
+    },
+    {
+      "expected_answer": "13%",
+      "model_answer": "13%",
+      "match_status": "exact",
+      "generation_time": 0.7243435382843018
+    },
+    {
+      "expected_answer": "24%",
+      "model_answer": "23.1%",
+      "match_status": "incorrect",
+      "generation_time": 1.0727930068969727
+    },
+    {
+      "expected_answer": "18068.8",
+      "model_answer": "29.1",
+      "match_status": "incorrect",
+      "generation_time": 0.9002010822296143
+    },
+    {
+      "expected_answer": "3.5%",
+      "model_answer": "3.5%",
+      "match_status": "exact",
+      "generation_time": 0.8883950710296631
+    },
+    {
+      "expected_answer": "-3.2%",
+      "model_answer": "1.6%",
+      "match_status": "incorrect",
+      "generation_time": 0.9096262454986572
+    },
+    {
+      "expected_answer": "3044%",
+      "model_answer": "32.5%",
+      "match_status": "incorrect",
+      "generation_time": 1.0856118202209473
+    },
+    {
+      "expected_answer": "no",
+      "model_answer": "no",
+      "match_status": "exact",
+      "generation_time": 0.3952662944793701
+    },
+    {
+      "expected_answer": "2.9%",
+      "model_answer": "3.3%",
+      "match_status": "incorrect",
+      "generation_time": 0.9055943489074707
+    },
+    {
+      "expected_answer": "1521.55",
+      "model_answer": "1516.8",
+      "match_status": "numeric",
+      "generation_time": 1.2358307838439941
+    }
+  ]
+}
