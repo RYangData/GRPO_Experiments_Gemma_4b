@@ -1,8 +1,12 @@
-# Tomoro AI Technical Assignment: ConvFinQA Solution
+# ConvFinQA Experiments: Exploring GRPO Fine-Tuning for Financial QA
+
+## Project Overview
+
+This project was completed as part of a take-home case study for a company I was interviewing with. The task required building an LLM-driven prototype that can answer questions based on financial documents, specifically using the ConvFinQA dataset. I decided to take this opportunity to explore Group Relative Policy Optimization (GRPO), a technique I had been interested in learning, while solving the assigned problem. The goal was to develop a system that could interpret financial information from text and tables to accurately answer numerical questions.
 
 ## Task Overview
 
-The assignment required building an LLM-driven prototype that can answer questions based on financial documents, specifically using the ConvFinQA dataset. The goal was to develop a system that could interpret financial information from text and tables to accurately answer numerical questions, demonstrating both technical capability and strategic reasoning.
+The case study challenged participants to build an LLM-driven prototype that could answer numerical questions from financial documents. Rather than just completing the minimum requirements, I used this as an opportunity to experiment with cutting-edge fine-tuning techniques I had been wanting to explore, particularly GRPO. This writeup documents my experimental approach and findings, demonstrating both the technical implementation and the strategic reasoning behind my decisions.
 
 ## Problem Formulation
 
@@ -280,15 +284,16 @@ For rapid prototyping and immediate results:
 
 # Conclusion
 
-This study successfully demonstrated the potential of fine-tuning a small language model, Gemma 3 4B, for the complex task of financial question-answering using the ConvFinQA dataset. Our experiments confirmed that incorporating structured reasoning, such as program steps via LoRA fine-tuning, significantly enhances accuracy compared to direct answer prediction. While higher LoRA ranks yielded the best overall balance, the GRPO approach highlighted strong numerical reasoning capabilities, albeit with challenges in output formatting due to reward function design.
+This study successfully demonstrated the potential of fine-tuning a small language model, Gemma 3 4B, for the complex task of financial question-answering using the ConvFinQA dataset. My experiments confirmed that incorporating structured reasoning, such as program steps via LoRA fine-tuning, significantly enhances accuracy compared to direct answer prediction. While higher LoRA ranks yielded the best overall balance, the GRPO approach highlighted strong numerical reasoning capabilities, albeit with challenges in output formatting due to reward function design.
 
-These findings underscore the viability of specialized, fine-tuned small models as a cost-effective and efficient alternative to larger API-based systems for niche financial domains requiring accuracy and explainability. Conversely, agentic systems remain a strong option for rapid deployment where time-to-value is paramount. As small models (<30B parameters) continue to advance rapidly, ongoing experimentation is essential to leverage their evolving capabilities for sophisticated financial analysis tasks and identify new opportunities to leverage them in the corporate world.
+These findings underscore the viability of specialized, fine-tuned small models as a cost-effective and efficient alternative to larger API-based systems for niche financial domains requiring accuracy and explainability. Conversely, agentic systems remain a strong option for rapid deployment where time-to-value is paramount. As small models (<30B parameters) continue to advance rapidly, ongoing experimentation is essential to leverage their evolving capabilities for sophisticated financial analysis tasks.
+
+This project not only satisfied the requirements of the case study but also provided me with valuable hands-on experience with GRPO, a technique I had been eager to explore. The insights gained from these experiments will inform my approach to similar problems in the future.
 
 
 # Repo Structure
 
 ```
-submission/
 ├── WRITEUP.md                           # This document explaining the approach and results
 ├── data/                                # Data processing and storage
 │   ├── 0_pre_processing.ipynb          # Initial data preprocessing notebook
